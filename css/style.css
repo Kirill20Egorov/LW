@@ -37,13 +37,10 @@
 {
     padding-left: 70px;
     width: 550px;
-    font-size: 24px;
-    line-height: 32px;
     color: #848484;
-    font-family: "Georgia";
-    font-style: italic;
     margin-top: -20px;
     padding-bottom: 28px;
+    font: Italic 28px/42px "Georgia";
 }
 
 
@@ -56,12 +53,9 @@
 
 .title_lists
 {    
-    font-size: 24px;
-    line-height: 32px;
-    color: #15a98c;
-    font-family: "Open Sans";
-    font-weight: bold;    
+    color: #15a98c;  
     margin-bottom: -7px;
+    font: bold 24px/32px "Open Sans";
 }
 
 .lists_character
@@ -84,13 +78,9 @@
 
 .name_text
 {
-    font-size: 48px;
-    line-height: 5px;
-    font-family: "Open Sans";
-    font-weight: bold;
     padding-bottom: 10px;
     color: #333333;
-
+    font: bold 48px/5px "Open Sans";
 }
 
 .underline
@@ -105,10 +95,8 @@
 .text_main
 {
     width: 561px;
-    font-size: 19px;
-    line-height: 32px;
     color: #555555;
-    font-family: "Georgia";
+    font: 19px/32px "Georgia";
 }
 .author
 {       
@@ -121,17 +109,17 @@
 .link
 {
     width: 562px;    
-    font-size: 19px;
-    line-height: 32px;
     color: #15a98b;
-    font-family: "Georgia";
+    font: 19px/32px "Georgia";
+    text-decoration: none;
 }
 .title_hobbies
 {   
-    font-size: 36px;
-    font-family: "Open Sans";
-    line-height: 42px;
     color: #333333;
-    font-family: "Open Sans";
     padding-top: 6px;
+    font: 36px/42px "Open Sans"
+}
+.write_me
+{
+    text-decoration: underline;
 }

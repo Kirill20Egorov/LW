@@ -1,10 +1,4 @@
-.background
-{
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-}
-.upper_block
+.main
 {
     width: 1000px;
     margin: auto;
@@ -44,7 +38,7 @@
     padding-left: 70px;
     width: 550px;
     color: #848484;
-    margin-top: -20px;
+    margin-top: -22px;
     font: Italic 28px/42px "Georgia";
 }
 
@@ -53,7 +47,6 @@
 {
     padding-top: 0.2px;
     width: 33%;
-    padding-left: 134px;
 }
 
 .title_lists
@@ -109,10 +102,12 @@
     font-family: "Open Sans";
     font-weight: bold;
     padding-left: 110px;
+    font: bold 16px "Open Sans"; ;
 }
 
 .link
 {
+    padding-top: 20px;
     width: 562px;    
     color: #15a98b;
     font: 19px/32px "Georgia";
@@ -122,6 +117,7 @@
 {   
     color: #333333;
     padding-top: 6px;
+    margin-bottom: -5px;
     font: 36px/42px "Open Sans"
 }
 .write_me
